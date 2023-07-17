@@ -20,7 +20,7 @@ There is currently a single endpoint which by default makes any uploaded file ac
 1. Open the globus share using the web app. [Here is the direct link](https://app.globus.org/file-manager?origin_id=c3522768-02fa-4117-a2d4-f8ff15011b1d&origin_path=%2F)
 ![Image](images/1.quick_upload.png)
 
-2. When uploading single or multiple files first create a new folder by right clicking anywhere in the directory box and clicking 'New Folder'. Name the directory as approriate.
+2. When uploading single or multiple files first create a new folder by right clicking anywhere in the directory box and clicking 'New Folder'. Name the directory with a meaningful name as appropriate.
 ![Image](images/4.quick_upload.png)
 
 3.  a. Click the `Upload` button. If this is the first time you are uploading using the web interface then the application will request consent. 
@@ -55,7 +55,7 @@ When downloading a single file using a direct link, opening the link should dire
 ![Image](images/9.quick_upload.png)
 
 ## 4. Deleting files
-Files or directories can be deleting by either selecting the path and click `Delete Selected` or by right clicking the path and choosing `Delete Selected`.
+Files or directories can be deleted by either selecting the path and clicking `Delete Selected` or by right clicking the path and choosing `Delete Selected`.
 
 ![Image](images/10.quick_upload.png)
 
