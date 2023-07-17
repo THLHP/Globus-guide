@@ -3,10 +3,11 @@ This guide is for uploading files using the web interface of globus. This is use
 
 ### List of contents
 1. [Globus endpoints](#1-globus-endpoints)
-2. [Uploading files](#2-upload-using-web-app)
-3. [Downloading files](#3-download-using-web-app)
-4. [Deleting files](#4-deleting-files)
-4. [Sharing uploads with specific users](#5-sharing-uploads-with-specific-users)
+2. [Requesting access](#2-requesting-access)
+2. [Uploading files](#3-upload-using-web-app)
+3. [Downloading files](#4-download-using-web-app)
+4. [Deleting files](#5-deleting-files)
+4. [Sharing uploads with specific users](#6-sharing-uploads-with-specific-users)
 
 ## 1. Globus endpoints
 There is currently a single endpoint which by default makes any uploaded file accessible to all members of the THLHP project. The list of members that have access the THLHP Data Shares directory can be viewed using [this direct link](https://app.globus.org/groups/94d5f71b-21ae-11ee-b52a-955597948ffe/members)
@@ -16,7 +17,16 @@ There is currently a single endpoint which by default makes any uploaded file ac
     * Domain: g-ef43db.251141.e229.dn.glob.us
     * Description: Default collection which allows read and write access to all members of the project.
 
-## 2. Upload using web app
+## 2. Requesting access
+To request access to the group visit the group page within globus and click `Join this Group`. This will trigger an email to the group administrators with a link to approve or decline the join request. Once the request is approved you will be able to view the members of the group as well as all collections. 
+
+* Link to request permission to group: [https://app.globus.org/groups/94d5f71b-21ae-11ee-b52a-955597948ffe/about](https://app.globus.org/groups/94d5f71b-21ae-11ee-b52a-955597948ffe/about)
+
+* Link to view members of the group: [https://app.globus.org/groups/94d5f71b-21ae-11ee-b52a-955597948ffe/members](https://app.globus.org/groups/94d5f71b-21ae-11ee-b52a-955597948ffe/members)
+
+![Image](images/11.quick_upload.png)
+
+## 3. Upload using web app
 1. Open the globus share using the web app. [Here is the direct link](https://app.globus.org/file-manager?origin_id=c3522768-02fa-4117-a2d4-f8ff15011b1d&origin_path=%2F)
 ![Image](images/1.quick_upload.png)
 
@@ -49,15 +59,15 @@ On the next page click 'Allow'.
 
     ![Image](images/8.quick_upload.png)
 
-## 3. Download using web app
+## 4. Download using web app
 When downloading a single file using a direct link, opening the link should directly initiate the download (after authentication). When downloading specific files from a shared directory select individual files and click `Download` or right click the file and select download. *Note: Entire directories cannot be downloaded using the web app. The recommended method for downloading entire files is using the globus desktop client.*
 
 ![Image](images/9.quick_upload.png)
 
-## 4. Deleting files
+## 5. Deleting files
 Files or directories can be deleted by either selecting the path and clicking `Delete Selected` or by right clicking the path and choosing `Delete Selected`.
 
 ![Image](images/10.quick_upload.png)
 
-## 5. Sharing uploads with specific users
+## 6. Sharing uploads with specific users
 If sharing data with a particular subset of users instead of the whole THLHP group please use the `Private shares` directory under THLHP Data Shares. Please contact [Suhail Ghafoor](suhail.ghafoor@asu.edu) for setting up a protected directory. This directory can be used for sharing data within a specific group or between multiple groups. 
